@@ -19,7 +19,7 @@ public abstract class QuestionFrame extends JFrame {
     private JRadioButton chooseC = new JRadioButton("C");
     private JRadioButton chooseD = new JRadioButton("D");
     private String[] answers;
-    private JButton ensure = new JButton("确认");
+    private JButton ensure = new JButton("确定");
     private JButton importQuestion = new JButton("导入题目");
     private List<Question> questions = new ArrayList<Question>();
     private int index;
